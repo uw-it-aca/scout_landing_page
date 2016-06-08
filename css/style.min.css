@@ -1,1 +1,1 @@
-body{font-size:16px}h1{font-size:2.25rem}h2{font-size:1.5rem}h3{font-size:1.125rem}h4{font-size:0.875rem}
+body{font-family:'Open Sans', sans-serif;font-size:16px;font-weight:400;line-height:1.4}.container{background-color:cyan;margin-left:auto;margin-right:auto;padding-left:1rem;padding-right:1rem}h1,h2{margin:0}h1{font-size:2.25rem}h2{font-size:1.5rem;font-weight:300}@media (min-width: 39.5rem){.container{padding-left:0;padding-right:0;width:37.5rem}}
