@@ -33,6 +33,14 @@ footer {
     width: 100%;
 }
 
+footer p {
+    width: 50%;
+}
+
+header > .container {
+    padding-top: 2rem;
+}
+
 h1, h2 {
     margin: 0;
 }
@@ -44,6 +52,18 @@ h1 {
 h2 {
     font-size: 1.5rem;
     font-weight: 300;
+    margin-bottom: 2rem;
+}
+
+main > .container {
+    padding-bottom: 2rem;
+}
+
+#phone {
+    position: relative;
+    left: 30px;
+    width: 50%;
+    z-index: 999;
 }
 
 @media (min-width: 39.5rem) {
