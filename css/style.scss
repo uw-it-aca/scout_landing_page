@@ -1,13 +1,6 @@
-$purple-light: rgba(101, 100, 168, 0.9);
-
-a {
-    color: lightgray;
-    text-decoration: none;
-}
-
-html, {
-    min-height: 100%;
-    position: relative;
+#announcement, #stf, footer {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 body {
@@ -25,32 +18,11 @@ body {
 }
 
 footer {
-    background: linear-gradient($purple-light, $purple-light), url("../images/district_market.jpg");
-    background-size: cover;
-    background-position: left center;
-    color: white;
-}
-
-footer .container {
-    align-items: center;
-    justify-content: space-between;
-    display: flex;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    text-align: center;
 }
 
 footer p {
-    text-align: center;
-    width: 30%;
-}
-
-header > .container {
-    padding-top: 2rem;
-    text-align: center;
-}
-
-h1, h2 {
-    margin: 0;
+    font-size: 0.875rem;
 }
 
 h1 {
@@ -64,6 +36,13 @@ h1 {
 h2 {
     font-size: 1.5rem;
     font-weight: 300;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+header {
     margin-bottom: 2.5rem;
     text-align: center;
 }
@@ -73,13 +52,27 @@ h2 {
     width: 4rem;
 }
 
-main > .container {
-    padding-bottom: 2rem;
-}
-
 #phone {
     height: 100%;
-    width: 25%;
+    width: 20%;
+}
+
+#stf {
+    background: linear-gradient(rgba(255, 255, 255, 1.0), rgba(255, 255, 255, 0.0)), url("../images/district_market.png");
+    background-size: cover;
+    background-position: left center;
+    color: white;
+}
+
+#stf .container {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+#stf p {
+    text-align: center;
+    width: 35%;
 }
 
 @media (min-width: 39.5rem) {
@@ -89,7 +82,11 @@ main > .container {
         width: 37.5rem;
     }
 
-    footer .container {
+    #stf .container {
         width: 75rem;
+    }
+
+    #uw {
+        width: 3.5rem;
     }
 }
