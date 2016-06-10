@@ -79,6 +79,7 @@ p {
 }
 
 #stf {
+    background: -webkit-linear-gradient(rgba(255, 255, 255, 1.0), rgba(255, 255, 255, 0.0)), url("../images/district_market.png");
     background: linear-gradient(rgba(255, 255, 255, 1.0), rgba(255, 255, 255, 0.0)), url("../images/district_market.png");
     background-position: left center;
     background-size: cover;
@@ -122,9 +123,18 @@ p {
 
     #stf {
         .container#hidden-xs {
-            align-items: center;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
             display: flex;
-            justify-content: space-between;
+            -webkit-box-pack: justify;
+            -webkit-justify-content: space-between;
+                -ms-flex-pack: justify;
+                    justify-content: space-between;
             width: 46rem;
         }
 
