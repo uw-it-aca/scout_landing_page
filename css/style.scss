@@ -1,12 +1,12 @@
-/* Extra small devices (phones, less than 768px */
+/* Extra small devices (phones, less than 768px) */
 
 h1, h2 {
     margin: 0;
 }
 
 $black: #222;
-$gray: #858585;
 $font-family: 'Open Sans', sans-serif;
+$gray: #858585;
 $light: 300;
 $regular: 400;
 $semibold: 600;
@@ -24,10 +24,13 @@ body {
 }
 
 footer {
-    color: $gray;
-    font-size: 0.875rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
+
+    p {
+        color: $gray;
+        font-size: 0.875rem;
+    }
 }
 
 footer, header {
@@ -101,6 +104,14 @@ li, p {
     display: block;
 }
 
+/* Extra small and small devices (phones and tablets, 768px and down) */
+@media (max-width: 62rem) {
+    .fadeIn {
+        -webkit-animation: none;
+                animation: none;
+    }
+}
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 48rem) {
     .container {
@@ -143,13 +154,6 @@ li, p {
     }
 }
 
-@media (max-width: 62rem) {
-    .fadeIn {
-        -webkit-animation: none;
-                animation: none;
-    }
-}
-
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 62rem) {
     .fadeIn {
@@ -160,6 +164,10 @@ li, p {
     footer {
         padding-top: 3rem;
         padding-bottom: 3rem;
+
+        p {
+            font-size: 1rem;
+        }
     }
 
     h1 {
