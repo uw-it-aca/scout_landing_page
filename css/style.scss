@@ -23,11 +23,6 @@ body {
     padding-right: 1rem;
 }
 
-.fadeIn {
-    -webkit-animation-duration: 3s;
-            animation-duration: 3s;
-}
-
 footer {
     color: $gray;
     font-size: 0.875rem;
@@ -148,8 +143,20 @@ li, p {
     }
 }
 
+@media (max-width: 62rem) {
+    .fadeIn {
+        -webkit-animation: none;
+                animation: none;
+    }
+}
+
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 62rem) {
+    .fadeIn {
+        -webkit-animation-duration: 2s;
+                animation-duration: 2s;
+    }
+
     footer {
         padding-top: 3rem;
         padding-bottom: 3rem;
