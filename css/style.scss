@@ -23,6 +23,11 @@ body {
     padding-right: 1rem;
 }
 
+.fadeIn {
+    -webkit-animation-duration: 3s;
+            animation-duration: 3s;
+}
+
 footer {
     color: $gray;
     font-size: 0.875rem;
