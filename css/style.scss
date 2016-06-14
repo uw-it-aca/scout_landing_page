@@ -1,6 +1,6 @@
 /* Extra small devices (phones, less than 768px) */
 
-h1, h2 {
+h1, .subhead {
     margin: 0;
 }
 
@@ -14,8 +14,12 @@ $semibold: 600;
 body {
     color: $black;
     font-family: $font-family;
-    font-size: 16px;
+    font-size: 1.2rem;
     font-weight: $regular;
+}
+
+.nowrap {
+    white-space: nowrap;
 }
 
 .container {
@@ -24,8 +28,8 @@ body {
 }
 
 footer {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 
     p {
         color: $gray;
@@ -46,7 +50,7 @@ h1 {
     text-transform: uppercase;
 }
 
-h2 {
+.subhead {
     color: $gray;
     font-size: 1.5rem;
     font-weight: 300;
@@ -64,11 +68,12 @@ header {
 
 li, p {
     line-height: 1.5;
+    margin-bottom: 1rem;
 }
 
 #logo {
     margin-bottom: 1rem;
-    width: 4rem;
+    width: 6rem;
 }
 
 #stf {
@@ -84,15 +89,20 @@ li, p {
     a {
         color: white;
         font-weight: $semibold;
+        &:hover {
+            color:lightblue;
+        }
     }
 
     img {
         margin-bottom: 1rem;
         width: 56%;
+        max-width:300px;
     }
 
     p {
         text-align: left;
+        font-size: 1rem;
     }
 }
 
@@ -146,6 +156,7 @@ li, p {
         p {
             text-align: center;
             width: 32%;
+            font-size: 1.2rem;
         }
     }
 
@@ -160,13 +171,17 @@ li, p {
         -webkit-animation-duration: 2s;
                 animation-duration: 2s;
     }
-
+    
+    body {
+    font-size: 1.4rem;
+    }
+    
     footer {
-        padding-top: 3rem;
-        padding-bottom: 3rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
 
         p {
-            font-size: 1rem;
+            font-size: .8rem;
         }
     }
 
@@ -175,7 +190,7 @@ li, p {
         margin-bottom: 0.5rem;
     }
 
-    h2 {
+    .subhead {
         font-size: 2.25rem;
         margin-bottom: 3.5rem;
     }
@@ -186,11 +201,7 @@ li, p {
 
     #logo {
         margin-bottom: 1.5rem;
-        width: 5rem;
-    }
-
-    p {
-        font-size: 1.125rem;
+        width: 8rem;
     }
 
     #stf {
