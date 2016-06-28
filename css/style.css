@@ -45,6 +45,19 @@ header {
 
 #hidden-xs {
   display: none; }
+  
+.info {
+    text-align:center;
+    background-color:#5d59a9;
+    font-size: 70%; 
+    color:white; 
+    min-height:1em;
+    padding:8px 0;
+}
+
+.info a {
+    color:white; 
+}
 
 li, p {
   line-height: 1.5;
