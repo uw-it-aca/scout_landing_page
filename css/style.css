@@ -90,7 +90,8 @@ li, p {
     font-size: 1rem; }
 
 #uw {
-  width: 3rem; }
+  width: 25rem;
+  margin-top:20px; }
 
 #visible-xs {
   display: block; }
@@ -169,7 +170,7 @@ li, p {
       width: 60rem; }
 
   #uw {
-    width: 3.5rem; } }
+    width: 30rem; } }
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 75rem) {
   #stf .container#hidden-xs {
